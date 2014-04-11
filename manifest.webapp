@@ -1,0 +1,24 @@
+{
+	"name": "Nome do seu aplicativo",
+	"description": "Descrição do seu aplicativo",
+	"launch_path": "caminho para o arquivo a ser executado na abertura (/index.html normalmente",
+	"developer": {
+		"name": "nome do desenvolvedor",
+		"url": "site do desenvolvedor ou algo relacionado ao app"
+	},
+	"icons": {
+		"30": "/images/icons/icon30.png",
+		"60": "/images/icons/icon60.png",
+		"90": "/images/icons/icon90.png",
+		"128": "/images/icons/icon128.png"
+	},
+	"fullscreen": "true",
+	"default_locale": "lingua padrão do aplicativo, codigo iso-639-1",
+	"orientation": "orientações na qual o aplicativo funcionará",
+	"type": "privileged",
+	"permissions": {
+	    "permissões necessárias para seu app funcionar. Quais recursos vd quer e porque"
+	  },
+	  "installs_allowed_from": ["*"],
+	  "version": "numero da versão"
+}
